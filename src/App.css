@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+}
+
+@media only screen and (min-width: 1700px) {
+  body {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    width: 75%;
+  }
+  .sideContainer {
+    margin-left: 12.5%;
+    height: 90%;
+    width: 16%;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  body {
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    width: 65%;
+  }
+  .sideContainer {
+    margin-left: 17.5%;
+    height: 80%;
+    width: 14%;
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  body {
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 80%;
+    width: 50%;
+  }
+  .sideContainer {
+    margin-left: 25%;
+    height: 70%;
+    width: 10%;
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  body {
+    margin-left: 33%;
+    margin-right: 33%;
+    width: 34%;
+    height: 70%;
+  }
+  .sideContainer {
+    margin-left: 33%;
+    height: 60%;
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  body {
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    width: 25%;
+    height: 60%;
+  }
+  .sideContainer {
+    margin-left: 37.5%;
+    height: 50%;
+    width: 5%;
+  }
+}

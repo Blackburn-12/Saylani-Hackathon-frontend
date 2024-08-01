@@ -1,0 +1,159 @@
+.profileMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background: #f4f6f8;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.profileImageContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #e0e0e0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.profileText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.profileSect {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fieldContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.fieldContainer:hover {
+  background: #e6e6e6;
+  transform: translateY(-2px);
+}
+
+.fieldContainer span {
+  font-weight: 600;
+  color: #333;
+}
+
+.editButton {
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.editButton:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.modal-overlay-profile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content-profile {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  z-index: 1001;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-close {
+  background: #e0e0e0;
+  border: none;
+  color: #333;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  transition: background 0.3s;
+}
+
+.modal-close:hover {
+  background: #b0b0b0;
+}
+
+.fieldContainer label {
+  width: 30%;
+  color: #333;
+}
+
+.fieldContainer input {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.fieldContainer input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.passwordUpdateButton {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.passwordUpdateButton:hover {
+  background: #0056b3;
+  transform: scale(1.03);
+}
+
+.error {
+  color: #ff4d4d;
+  margin-top: 10px;
+  text-align: center;
+}

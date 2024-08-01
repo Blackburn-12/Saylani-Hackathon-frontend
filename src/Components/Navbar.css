@@ -1,0 +1,73 @@
+.navContainer {
+  display: flex;
+  /* margin-left: 25%; */
+  margin-top: 10px;
+  padding: 0 20px 5px 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #0d6db7;
+  box-shadow: 0 4px 2px -2px rgba(13, 109, 183, 0.3);
+  transition: left 0.5s ease ;
+}
+
+/* .navContainerToggled {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+} */
+
+.navContainer label,
+h4 {
+  color: black;
+}
+
+.imageContainerLogo img {
+  height: 50px;
+  width: 80px;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profileContainer img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.profileContainer h4 {
+  font-weight: 400;
+  margin-left: -10px;
+}
+
+.toggleIcon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.toggleIconToggled {
+  display: block;
+}
+
+@media only screen and (max-width: 425px) {
+  /* .navContainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+  }
+
+  .toggleIcon {
+    display: block;
+  } */
+
+  .profileContainer h4 {
+    display: none;
+  }
+}

@@ -1,0 +1,153 @@
+.sideContainer {
+  position: fixed;
+  left: 20px;
+  top: 2.5%;
+  height: 95%;
+  background-color: #ffffff;
+  width: 20%;
+  border-radius: 15px;
+  border: 2px solid #0d6db7;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sideContainer.open {
+  display: none;
+}
+
+.dashboardHead {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.dashboardHead h1 {
+  font-size: 20px;
+}
+
+.toggleBtn {
+  cursor: pointer;
+}
+
+.searchBar {
+  background-color: #f4f4f4;
+  border: 1px solid rgba(77, 77, 77, 0.1);
+  margin: 10px 0;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sideContainer h4 {
+  margin: 20px 0 10px;
+  font-size: 16px;
+}
+
+.profileSignoutContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.profileSection,
+.signoutSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signoutSection {
+  border-top: 1px solid #0d6db7;
+  padding-top: 10px;
+}
+
+.listItems {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.profileSection h3,
+.signoutSection h3 {
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.sideContainer a {
+  color: #0d6db7;
+  text-decoration: none;
+}
+
+.listItems:hover {
+  background-color: #e2e2e2;
+  cursor: pointer;
+}
+
+.isActiveSide{
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .sideContainer {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .sideContainer {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .sideContainer {
+    margin-left: 12.5%;
+    height: 90%;
+    width: 16%;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .sideContainer {
+    margin-left: 17.5%;
+    height: 80%;
+    width: 14%;
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  .sideContainer {
+    margin-left: 25%;
+    height: 55%;
+    width: 10%;
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  .sideContainer {
+    margin-left: 33%;
+    height: 40%;
+    width: 6.7%;
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  .sideContainer {
+    margin-left: 37.5%;
+    height: 30%;
+    width: 5%;
+  }
+}

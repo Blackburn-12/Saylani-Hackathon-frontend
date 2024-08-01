@@ -1,0 +1,25 @@
+.cardContainerClasses {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.noClassesHead {
+  font-weight: 600;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.no-classes-card {
+  background-color: #e2e3e5;
+  color: #6c757d;
+  border-color: #d6d8db;
+}

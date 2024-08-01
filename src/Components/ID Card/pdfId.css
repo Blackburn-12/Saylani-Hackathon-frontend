@@ -1,0 +1,38 @@
+.idCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin: 20px; */
+}
+
+.idCardContainer h2{
+    font-weight: 600;
+}
+
+.idCardButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0d6db7;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.idCardButton:hover {
+    background-color: #095a99;
+  }
+
+  @media only screen and (max-width: 425px) {
+    .idCardButton{
+        width: 60%;
+    }
+  }

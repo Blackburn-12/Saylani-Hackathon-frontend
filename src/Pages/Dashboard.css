@@ -1,0 +1,48 @@
+.dashboardBackground {
+  position: relative;
+  min-height: 100vh;
+}
+
+.dashboardContainer {
+  width: 70%;
+  margin-left: 25%;
+  margin-bottom: 40px;
+}
+
+.dashboardContainerToggled{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+body {
+  background: none;
+}
+
+body.dashboardBackground {
+  background-image: url("../Images/geometric-diagonal-shapes-white-gray-background_1017-25102.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.backgroundOverlay {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboardContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
